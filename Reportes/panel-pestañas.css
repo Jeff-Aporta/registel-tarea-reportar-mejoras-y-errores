@@ -1,0 +1,8 @@
+.panel-pestañas{
+    .pestaña{
+        display: inline-block;
+        background: dodgerblue;
+        color: white;
+        padding: 10px;
+    }
+}

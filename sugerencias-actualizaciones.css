@@ -1,0 +1,40 @@
+.actualizaciones-sugerencias{
+    border: 1px solid lightgray;
+    padding: 20px;
+    .sugerencia{
+        background-color: rgb(195, 255, 195);
+    }
+    .actualizacion{
+        background-color: rgb(154, 223, 255);
+    }
+    .sugerencia, .actualizacion{
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
+        & input{
+            display: none;
+        }
+        .titulo{
+            display: block;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+            &:hover{
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+        .contenido{
+            display: none;
+        }
+        &:has(.checkbox:checked){
+            .contenido{
+                display: block;
+            }
+            .titulo{
+                border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+            }
+        }
+    }
+}
