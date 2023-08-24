@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liquidación</title>
-    <script src="/lightbox3.js">    </script>
-    <script src="/_main.js"></script>
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="/sugerencias-actualizaciones.css">
+    <script src="../lightbox3.js">    </script>
+    <script src="../_main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../sugerencias-actualizaciones.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
     <div style="padding: 20px;">
-        <a href="/">
+        <a href="../">
             <div class="boton dodgerblue">
                 <i class="fa-solid fa-angles-left"></i> Inicio
             </div>
@@ -47,16 +47,16 @@
     </div>
 
     <script type="module">
-        import { default as primera_parte } from "/Liquidacion/fragmentos/1.js";
+        import { default as primera_parte } from "../Liquidacion/fragmentos/1.js";
         document.querySelector(".primera-parte").innerHTML = formatearTextoAHTML(primera_parte);
 
-        import { default as _sugerencias1 } from "/Liquidacion/_sugerencias1.js";
+        import { default as _sugerencias1 } from "../Liquidacion/sugerencias1.js";
         _sugerencias1.forEach(generadorAcordeon("sugerencia", "sugerencias1"));
-        import { default as _sugerencias2 } from "/Liquidacion/_sugerencias2.js";
+        import { default as _sugerencias2 } from "../Liquidacion/sugerencias2.js";
         _sugerencias2.forEach(generadorAcordeon("sugerencia", "sugerencias2"));
-        import { default as _sugerencias3 } from "/Liquidacion/_sugerencias3.js";
+        import { default as _sugerencias3 } from "../Liquidacion/sugerencias3.js";
         _sugerencias3.forEach(generadorAcordeon("sugerencia", "sugerencias3"));
-        import { default as _sugerencias4 } from "/Liquidacion/_sugerencias4.js";
+        import { default as _sugerencias4 } from "../Liquidacion/sugerencias4.js";
         _sugerencias4.forEach(generadorAcordeon("sugerencia", "sugerencias4"));
     </script>
 </body>
