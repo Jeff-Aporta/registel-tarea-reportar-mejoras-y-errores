@@ -43,10 +43,10 @@
         import { default as intro } from "../Reportes/fragmentos/intro.js";
         document.querySelector(".intro").innerHTML = formatearTextoAHTML(intro);
 
-        import { default as _sugerencias } from "../Reportes/_sugerencias.js";
+        import { default as _sugerencias } from "../Reportes/sugerencias.js";
         _sugerencias.forEach(generadorAcordeon("sugerencia", "sugerencias"));
 
-        import { default as _actualizaciones } from "../Reportes/_actualizaciones.js";
+        import { default as _actualizaciones } from "../Reportes/actualizaciones.js";
         _actualizaciones.forEach(generadorAcordeon("actualizacion", "actualizaciones"));
 
     </script>
