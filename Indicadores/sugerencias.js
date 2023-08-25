@@ -1,7 +1,7 @@
 export default [
     {
         titulo: `
-            Transición Suave de Gráficos
+            Sin Transición de Gráficos
         `,
         contenido: `
             En el día actual, cada aproximadamente 10 segundos, cuando los datos se actualizan, se observa que los gráficos realizan un reinicio. Esto crea una experiencia visual poco satisfactoria y podría mejorarse eliminando la transición abrupta entre los datos antiguos y los nuevos. 
