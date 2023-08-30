@@ -7,8 +7,8 @@ export default [
             Se sugiere mejorar el lenguaje utilizado en los encabezados de las tablas. En lugar de utilizar convenciones de nomenclatura de programación como "FK_VEHICULO", es preferible utilizar términos más naturales como "Vehículo" o "Móvil", hay más cabeceras con esta particularidad. Además, se debe evitar mezclar lenguaje natural con convenciones de programación en los encabezados de las tablas.
 
             <div class="flex-center-wrap">
-                <img class="miniatura" src="https://i.ibb.co/Qdg8W03/Captura-de-pantalla-2023-08-24-094039.png" data-lightbox-group="1" loading="lazy">
-                <img class="miniatura" src="https://i.ibb.co/7C2QHmD/Captura-de-pantalla-2023-08-24-094115.png" data-lightbox-group="1" loading="lazy">
+                <img class="miniatura" src="https://i.ibb.co/Qdg8W03/Captura-de-pantalla-2023-08-24-094039.png" data-lightbox-group="a" loading="lazy">
+                <img class="miniatura" src="https://i.ibb.co/7C2QHmD/Captura-de-pantalla-2023-08-24-094115.png" data-lightbox-group="a" loading="lazy">
             </div>
         `
     },
@@ -19,8 +19,8 @@ export default [
         contenido: `
             Se ha notado inconsistencia en la capitalización de las cabeceras. Es importante establecer un formato consistente para todas las cabeceras, ya sea en mayúsculas solo al principio o capitalizadas al principio. Se sugiere evitar el uso de cabeceras totalmente en mayúsculas.
             <div class="flex-center-wrap">
-                <img class="miniatura" src="https://i.ibb.co/Qdg8W03/Captura-de-pantalla-2023-08-24-094039.png" data-lightbox-group="2" loading="lazy">
-                <img class="miniatura" src="https://i.ibb.co/2t9tJck/Captura-de-pantalla-2023-08-24-094502.png" data-lightbox-group="2" loading="lazy">
+                <img class="miniatura" src="https://i.ibb.co/Qdg8W03/Captura-de-pantalla-2023-08-24-094039.png" data-lightbox-group="b" loading="lazy">
+                <img class="miniatura" src="https://i.ibb.co/2t9tJck/Captura-de-pantalla-2023-08-24-094502.png" data-lightbox-group="b" loading="lazy">
             </div>
         `,
     },

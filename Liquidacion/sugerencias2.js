@@ -64,7 +64,7 @@ export default [
             Icono de Edición
         `,
         contenido: `
-            Si el icono junto al conductor abre un modal de edición, debería representarse con un icono de edición para mayor claridad
+            Si el nombre del conductor abre un modal de edición, debería representarse con un icono de edición para mayor claridad
             <div class="flex-center-wrap"style="font-size: 60px">
                 <i class="fa-solid fa-pen-to-square"></i>
                 &nbsp;
