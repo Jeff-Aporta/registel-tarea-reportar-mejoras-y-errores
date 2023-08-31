@@ -33,23 +33,26 @@ export default [
         `
     },
     {
-        titulo: `SUGERENCIA PARA LA MEJORA DE LA INTERFAZ DEL BOTÓN DE COLAPSAR/DESCOLAPSAR`,
+        titulo: `MEJORA DEL BOTÓN DE COLAPSAR/DESCOLAPSAR EN LA INTERFAZ`,
         contenido: `
-            En relación a la actual implementación del botón de colapsar/descolapsar en nuestra interfaz, me gustaría proponer una modificación con el objetivo de eliminar posibles confusiones y hacer que la funcionalidad sea más explícita y eficiente.
+        En relación a la actual implementación del botón de colapsar/descolapsar en nuestra interfaz, se propone una modificación con el objetivo de eliminar posibles confusiones y hacer que la funcionalidad sea más explícita y eficiente.
+        
+        La propuesta consiste en dividir el botón actual de colapsar/descolapsar en dos botones separados: uno específico para colapsar y otro específico para descolapsar. Esta modificación ofrece varias ventajas, incluyendo una mayor claridad de acción, ahorro de espacio, una mejor experiencia de usuario y consideración de recursos. La implementación de dos botones separados para estas funciones podría aumentar la claridad y reducir la posibilidad de errores por parte de los usuarios, mejorando así la eficiencia general de la interfaz.
 
-            La propuesta consiste en dividir el botón actual de colapsar/descolapsar en dos botones separados: uno específico para colapsar y otro específico para descolapsar. Esta modificación ofrece varias ventajas:
+        <div class="flex-center-wrap">
+            <img class="miniatura" src="https://i.ibb.co/ZJr9QDJ/colapse.jpg" data-lightbox-group="a" loading="lazy">
+            <img class="miniatura" src="https://i.ibb.co/s6FQzhn/1.png" data-lightbox-group="a" loading="lazy">
+        </div>
+        `
+    },
+    {
+        titulo: `
+            SIMPLIFICAR LAS OPCIONES DE GENERACIÓN DE REPORTES
+        `,
+        contenido: `
+            Se ha identificado que las opciones "PDF/Web" y "Excel" en la solicitud de información previa a la generación de un reporte a veces contienen una única opción de generación. Esto puede simplificarse para mejorar la experiencia del usuario.
 
-            <b>1. Claridad de Acción:</b> Al tener botones separados para colapsar y descolapsar, los usuarios no tendrán dudas sobre la acción que realizará, lo que mejora la claridad y reduce la posibilidad de comportamientos inesperados.
-
-             <b>2. Ahorro de Espacio:</b> Al utilizar dos botones más pequeños en lugar de uno grande para alternar entre las dos funciones, se optimiza el uso del espacio en la interfaz, lo que puede ser especialmente beneficioso en el diseño.
-
-             <b>3. Mejor Experiencia de Usuario:</b> La separación de las funciones puede proporcionar una experiencia de usuario más intuitiva y agradable, ya que los usuarios sabrán exactamente cómo interactuar con la interfaz.
-
-             <b>4. Consideración de Recursos:</b> Es importante tener en cuenta que la acción de descolapsar generalmente consume más recursos que la de colapsar. Por lo tanto, descolapsar cuando se desea colapsar puede ser considerado un error que podría impactar negativamente en el rendimiento de la aplicación.
-
-             <center>
-                <img class="miniatura" src="https://i.ibb.co/ZJr9QDJ/colapse.jpg" data-lightbox-group="${Math.random()}" loading="lazy">
-            </center>
+            Se sugiere simplificar las opciones de generación de reportes cuando solo hay una única opción disponible, como "PDF/Web" o "Excel". En lugar de mostrar ambas opciones, se puede utilizar una sola etiqueta que indique claramente la opción de generación disponible. Esto simplificará la interfaz y evitará la redundancia innecesaria de opciones.
         `
     }
 ]

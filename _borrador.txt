@@ -1,0 +1,1 @@
+el tamaño de los iconos de la pantalla de inicio son demasiado gransdes, hay unos que toca hacer scroll para verlos todos, pero reduciendo su tamaño se soluciona. hice el experimento reduciendo su tamaño a 100x100 px y adjunto la imágen de cómo se ve

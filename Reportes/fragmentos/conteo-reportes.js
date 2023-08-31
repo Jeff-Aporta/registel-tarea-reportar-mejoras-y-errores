@@ -1,5 +1,5 @@
 export default `
-<h1>Conteo de Reportes</h1>
+<h2>Conteo de Reportes</h2>
 
 En el estudio sobre la generación de reportes, he realizado el conteo de los tipos de reportes disponibles para los usuarios
 

@@ -1,5 +1,5 @@
 export default `
 <h2>
-    Módulo de Reportes
+    Menú superior
 </h2>
 `

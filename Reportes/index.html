@@ -27,7 +27,20 @@
             <h1>
                 Sugerencias
             </h1>
-            <div class="sugerencias">
+            <h2>
+                Reportes
+            </h2>
+            <div class="sugerencias1">
+            </div>
+            <h2>
+                Reportes programados
+            </h2>
+            <div class="sugerencias2">
+            </div>
+            <h2>
+                Listado
+            </h2>
+            <div class="sugerencias3">
             </div>
             <h1>
                 Actualizaciones
@@ -43,8 +56,12 @@
         import { default as intro } from "../Reportes/fragmentos/intro.js";
         document.querySelector(".intro").innerHTML = formatearTextoAHTML(intro);
 
-        import { default as _sugerencias } from "../Reportes/sugerencias.js";
-        _sugerencias.forEach(generadorAcordeon("sugerencia", "sugerencias"));
+        import { default as sugerencias1 } from "../Reportes/sugerencias1.js";
+        sugerencias1.forEach(generadorAcordeon("sugerencia", "sugerencias1"));
+        import { default as sugerencias2 } from "../Reportes/sugerencias2.js";
+        sugerencias2.forEach(generadorAcordeon("sugerencia", "sugerencias2"));
+        import { default as sugerencias3 } from "../Reportes/sugerencias3.js";
+        sugerencias3.forEach(generadorAcordeon("sugerencia", "sugerencias3"));
 
         import { default as _actualizaciones } from "../Reportes/actualizaciones.js";
         _actualizaciones.forEach(generadorAcordeon("actualizacion", "actualizaciones"));
