@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registradora</title>
+    <script src="../lightbox3.js">    </script>
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../sugerencias-actualizaciones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div style="padding: 20px;">
+        <a href="../">
+            <div class="boton dodgerblue">
+                <i class="fa-solid fa-angles-left"></i> Inicio
+            </div>
+        </a>
+        <div class="parte1"></div>
+        <div class="actualizaciones-sugerencias panel-pestañas">
+            <h1>
+                Sugerencias
+            </h1>
+            <div class="sugerencias1">
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <script type="module">
+        let carpeta = "Usuarios"
+        import { default as parte1 } from "../Registradora/fragmentos/1.js";
+        document.querySelector(`.parte1`).innerHTML = formatearTextoAHTML(parte1);
+
+        import { default as _sugerencias1 } from "../Registradora/sugerencias1.js";
+        _sugerencias1.forEach(generadorAcordeon(`sugerencia`, `sugerencias1`));
+    </script>
+</body>
+</html>
